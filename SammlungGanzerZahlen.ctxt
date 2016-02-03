@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SammlungGanzerZahlen()
+comment0.text=\r\n\ Bequemlichkeitskonstruktor\ fuer\ Objekte\ der\ Klasse\ SammlungGanzerZahlen\r\n
+comment1.params=kapazitaet
+comment1.target=SammlungGanzerZahlen(int)
+comment1.text=\r\n\ Konstruktor\ f\uFFFDr\ Objekte\ der\ Klasse\ SammlungGanzerZahlen\ der\ angegebenen\ Kapazitaet\ (\=\ maximale\ \r\n\ Zahl\ speicherbarer\ Zahlen).\r\n
+comment10.params=
+comment10.target=void\ kehreReihenfolgeUm()
+comment10.text=\r\n\ Kehrt\ Reihenfolge\ der\ Zahlen\ im\ Array\ um.\ Tauscht\ die\ erste\ Zahl\ mit\ der\ letzten,\ \r\n\ die\ zweite\ mit\ der\ vorletzten,\ usw.\r\n
+comment2.params=
+comment2.target=int\ gibAnzahl()
+comment2.text=\r\n\ Gibt\ die\ Anzahl\ der\ gespeicherten\ Zahlen\ zurueck.\r\n\ @return\ Die\ Anzahl\ der\ aktuell\ gespeicherten\ Zahlen.\r\n
+comment3.params=
+comment3.target=void\ zeigeZahlen()
+comment3.text=\r\n\ Gibt\ alle\ gespeicherten\ Zahlen\ im\ Konsolenfenster\ aus.\ Zahlen\ werden\ in\ einer\ Liste\ ausgegeben,\ \r\n\ einzelne\ Zahlen\ durch\ Komma\ und\ Leerzeichen\ getrennt.\ Sofern\ mehr\ als\ 10\ Zahlen\ im\ Speicher\ sind,\r\n\ beginnt\ nach\ jeweils\ 10\ Zahlen\ eine\ neue\ Zeile.\r\n
+comment4.params=neueZahl
+comment4.target=boolean\ hinzufuegen(int)
+comment4.text=\r\n\ Fuegt\ eine\ Zahl\ hinzu.\ Zahl\ wird\ hinter\ den\ bereits\ gespeicherten\ Zahlen\ abgelegt.\r\n\ Falls\ der\ Vorgang\ nicht\ moeglich\ ist,\ wird\ eine\ Fehlermeldung\ ausgegeben.\r\n\ @param\ neueZahl\ Die\ Zahl,\ die\ hinzugefuegt\ wird.\r\n\ @return\ gibt\ treue\ zurueck,\ falls\ Hinzufuegen\ erfolgtreich,\ false\ sonst.\r\n
+comment5.params=index
+comment5.target=int\ gibZahl(int)
+comment5.text=\r\n\ Gibt\ die\ Zahl\ des\ angegebenen\ Indexes\ zurueck.\r\n\ @param\ index\ Der\ Index\ der\ gewuenschten\ Zahl.\r\n\ @return\ Die\ Zahl\ zum\ Index\ index.\ Falls\ eine\ Fehler\ auftritt\ wird\ eine\ Fehlermeldung\r\n\ \ \ \ \ \ \ \ \ ausgegeben\ und\ die\ Zahl\ 9999\ zurueckgegeben.\r\n
+comment6.params=index
+comment6.target=int\ loescheZahl(int)
+comment6.text=\r\n\ Loescht\ die\ Zahl\ des\ angegebenen\ Indexes.\ Alle\ nachfolgenden\ Zahlen\ werden\ nach\ vorne\r\n\ verschoben,\ so\ dass\ die\ entstehende\ Luecke\ geschlossen\ wird.\r\n\ @param\ index\ Der\ Index\ der\ zu\ loeschenden\ Zahl.\r\n\ @return\ Gibt\ die\ geloschte\ Zahl\ zurueck.\ Falls\ eine\ Fehler\ auftritt\ wird\ eine\ Fehlermeldung\r\n\ \ \ \ \ \ \ \ \ ausgegeben\ und\ die\ Zahl\ 9999\ zurueckgegeben.\r\n
+comment7.params=neueZahl\ index
+comment7.target=boolean\ fuegeZahlEin(int,\ int)
+comment7.text=\r\n\ Fuegt\ neue\ Zahl\ an\ der\ Stelle\ mit\ dem\ angegebenen\ Index\ ein.\ Alle\ nachfolgenden\ Zahlen\ werden\ \r\n\ gegebenenfalls\ nach\ hinten\ verschoben.\ Falls\ eine\ Luecke\ entstehen\ wuerde,\ wir\ die\ Zahl\ direkt\ \r\n\ hinter\ den\ bereits\ gespeicherten\ Zahlern\ abgelegt.\ Falls\ der\ Index\ negativ\ ist,\ wird\ die\ Zahl\r\n\ an\ den\ Anfang\ gestellt.\r\n\ @param\ neueZahl\ Die\ Zahl,\ die\ eingefuegt\ werden\ soll.\r\n\ @param\ index\ Der\ Index\ der\ gewuenschten\ Stelle.\r\n\ @return\ Gibt\ true\ zurueck,\ falls\ der\ Vorgang\ erfolgreich\ war.\ Falls\ eine\ Fehler\ auftritt\ wird\ \r\n\ \ \ \ \ \ \ \ \ eine\ Fehlermeldung\ ausgegeben\ und\ false\ zurueckgegeben.\r\n
+comment8.params=
+comment8.target=int\ gibGroesste()
+comment8.text=\r\n\ Findet\ groesste\ Zahl\ und\ gibt\ diese\ zurueck.\r\n\ @return\ groesste\ Zahl\ im\ Array.\ Gibt\ 9999\ zur\uFFFDck,\ falls\ es\ keine\ groesste\ Zahl\ gibt.\r\n
+comment9.params=
+comment9.target=int\ gibKleinste()
+comment9.text=\r\n\ Findet\ kleinste\ Zahl\ und\ gibt\ diese\ zurueck.\r\n\ @return\ kleinste\ Zahl\ im\ Array.\ Gibt\ 9999\ zurueck,\ falls\ es\ keine\ kleinste\ Zahl\ gibt.\r\n
+numComments=11
